@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecKnow | Newsletter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/form.css">
+</head>
+<body>
+      <!--=======================Header========================== -->
+      <header>
+        <nav id="navbar">
+            <div class="logo">TecKnow</div>
+            <ul>
+                <li id="login">Login</li>
+                <li><img src="../Images/Navbar/user.png" alt="user" width="40px"></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ==========Newsletter-Form ========== -->
+    <div class=" newsletter-container container">
+        <form action="" class="newsletter-box">
+            <h1 class="h-primary heading">Subscribe to our Newsletter</h1>
+            <span class="form-txt name" > Name:</span><input type="text" name="name" id="name" placeholder="Enter your name">
+            <span class="form-txt email"> Email:</span><input type="email" name="Email" id="email" placeholder="Enter you email" >
+            <button class="btn" onclick="btn()">Subscribe</button>
+            
+
+        </form>
+    </div>
+    <!--=======================Footer========================== -->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">TecKnow</div>
+            <ul>
+                <li><img src="../Images/Footer/instagram.png" alt="user" width="30px"></li>
+                <li><img src="../Images/Footer/linkedin.png" alt="user" width="30px"></li>
+                <li><img src="../Images/Footer/facebook.png" alt="user" width="30px"></li>
+            </ul>
+        </div>
+        <div class="container" id="lastline">
+            &copy; Copyright TecKnow Private Limited. All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+<!-- ====================JavaScript is here==================== -->
+<script>
+    function btn(){
+        alert("Thanks For Subscribing to our Newsletter!!");
+    }
+</script>
+</html>
